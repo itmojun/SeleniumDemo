@@ -19,6 +19,16 @@ __author__ = 'dj'
 # print(driver.page_source)
 
 
+# from selenium import webdriver
+# from selenium.webdriver.common.keys import Keys
+#
+# browser = webdriver.Firefox()
+# browser.get('http://www.baidu.com/')
+# elem = browser.find_element_by_name('wd')  # Find the search box
+# elem.send_keys('手机' + Keys.RETURN)
+# browser.quit()
+
+
 import pymongo
 from selenium import webdriver
 from selenium.common.exceptions import TimeoutException
